@@ -1,4 +1,5 @@
 * {
-  border: 10px;
-  margin: 0px;
+  border: 1px dotted rgb(240, 158, 172);
+  margin: 2px;
+  background-color: black;
 }
