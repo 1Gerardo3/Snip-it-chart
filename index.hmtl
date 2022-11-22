@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -39,7 +42,7 @@
             Use these three properties to create a <br> Flexbox row layout
           </p>
           <pre> 
-            <code class="code-card" class="glow">.row
+            <code class="code-card">.row
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
