@@ -1,5 +1,91 @@
 * {
-  border: 1px dotted rgb(240, 158, 172);
-  margin: 2px;
   background-color: black;
+  font-size: 16pt;
+  color: aqua;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 30pt;
+  padding: 50px;
+}
+
+.flex-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.code-card {
+  display: flex;
+  justify-content: center;
+
+  background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  );
+  border-radius: 20px;
+  margin: 25px;
+}
+.code-card:active {
+  user-select: all;
+}
+
+.card-div:hover, .card-header:hover, .code-card:hover {
+    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1),
+    0 0 15px rgba(232, 102, 236, 1);
+    
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 25px 25px 25px;
+}
+
+.card-div {
+  height: 450px;
+  width: 500px;
+  border: 5px dashed greenyellow;
+  margin: 25px;
+}
+
+.usage {
+  font-size: 18pt;
+}
+
+h2 {
+  font-size: 25pt;
+  text-align: center;
+  position: relative;
+  border: 3px solid greenyellow;
+  margin-top: -20px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+h3 {
+  font-size: 30pt;
+}
+
+@media screen and (max-width: 992px) {
+ body {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100px;
+ }
+  
+}
+
+@media screen and (max-width: 768px) {
+body {
+  width: 100%;
+  height: 100px;
+}
 }
