@@ -32,10 +32,11 @@ h1 {
   user-select: all;
 }
 
-.card-div:hover, .card-header:hover, .code-card:hover {
-    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1),
+.card-div:hover,
+.card-header:hover,
+.code-card:hover {
+  box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1),
     0 0 15px rgba(232, 102, 236, 1);
-    
 }
 
 .card {
@@ -74,18 +75,17 @@ h3 {
 }
 
 @media screen and (max-width: 992px) {
- body {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 100px;
- }
-  
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-body {
-  width: 100%;
-  height: 100px;
-}
+  body {
+    width: 100%;
+    height: 100px;
+  }
 }
